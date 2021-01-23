@@ -1,0 +1,10 @@
+for i, (name, para) in enumerate(model.named_parameters()):
+
+conv1.weight torch.Size([20, 1, 5, 5])
+conv1.bias torch.Size([20])
+conv2.weight torch.Size([50, 20, 5, 5])
+conv2.bias torch.Size([50])
+conv3.weight torch.Size([500, 50, 4, 4])
+conv3.bias torch.Size([500])
+conv4.weight torch.Size([10, 500, 1, 1])
+conv4.bias torch.Size([10])
